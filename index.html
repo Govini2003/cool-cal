@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pythagoras</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Cool Cal</title>
+    <link rel="stylesheet" href="coolcal.css">
+    <link rel="stylesheet" href="theme.css">
 </head>
 <body>
 
-    
     <header class="header">
         <header class="header">
     <div class="header-logo">
@@ -17,64 +17,76 @@
     </div>
     <nav class="header-nav">
         <ul>
-            <li><a href="coolcal.html" id="home-btn"><b>Home</b></a></li>
-            <li><a href="#about" id="about-btn"><b>About Us</b></a></li>
-            <li><a href="#contact" id="contact-btn"><b>Contact Us</b></a></li>
+            <li><a href="index.html" id="home-btn"><b>Home</b></a></li>
+            <li><a href="about.html" id="about-btn"><b>About Us</b></a></li>
+            <li><a href="contact.html" id="contact-btn"><b>Contact Us</b></a></li>
         </ul>
     </nav>
 </header>
 
     </header>
 
+    <h4>Welcome to Cool Cal!</h4>
 
-    <h2><b>Pythagoras Theorem</b></h2><br>
-    <h4>Definition</h4>
+    <p><b>Welcome to Cool Cal, your all-in-one solution for a variety of calculations! From solving Pythagoras Theorem problems to determining your Body Mass Index (BMI), 
+        converting temperatures, and even handling data conversions, Cool Cal has all the tools you need. 
+        Our user-friendly interface makes it easy to get precise results in seconds, no matter the calculation. 
+        Explore our growing range of tools and simplify your calculations today!</b></p><br>
 
-    <p><b>The square of the length of the hypotenuse of a right triangle equals the sum of the squares of the lengths of the other two sides.</b></p>
-    <img src="image/Pythagoras.png" alt="Pythagoras triangle">
-
-    <div class="gradient-line"></div>
-
-
-    <h2 id="a"><b>Pythagoras Calculator</b></h2><br>
-
-    <div class="form-container">
-
-        <div class="form-box">
-            <label id="1Label">Side 1:</label>
-            <select id="1Select">
-                <option value="A">A</option>
-                <option value="B">B</option>
-                <option value="C">C</option>
-              </select>
-              <input type="text" id="1TxtBox" placeholder="Input the value"><br><br>
-
-
-              <br><br>
-
-            <label id="2Label">Side 2:</label>
-            <select id="2Select">
-                <option value="A">A</option>
-                <option value="B">B</option>
-                <option value="C">C</option>
-              </select>
-              <input type="text" id="2TxtBox" placeholder="Input the value"><br><br>
-            
-            <button type="button" id="submitBtn">Submit</button><br><br><br>
-            <label id="3Label"></label>
+        <div class="buttons">
+            <button class="calc-button" id="pythagoras-btn">
+                <img src="image/Div image1.png" alt="Pythagoras Calculator">
+                <span>Pythagoras Calculator</span>
+            </button>
+            <button class="calc-button" id="bmi-btn">
+                <img src="image/Div image2.png" alt="BMI Calculator">
+                <span>BMI Calculator</span>
+            </button>
+            <button class="calc-button" id="temp-btn">
+                <img src="image/Div image3.png" alt="Temperature Converter">
+                <span>Temperature Converter</span>
+            </button>
+            <button class="calc-button" id="data-btn">
+                <img src="image/Div image4.png" alt="Data Converter">
+                <span>Data Converter</span>
+            </button>
+            <button class="calc-button" id="weight-btn">
+                <img src="image/Div image5.png" alt="Weight Converter">
+                <span>Weight Converter</span>
+            </button>
+            <button class="calc-button" id="time-btn">
+                <img src="image/Div image6.png" alt="Time Converter">
+                <span>Time Converter</span>
+            </button>
+            <button class="calc-button" id="root-btn">
+                <img src="image/Div image7.png" alt="Root Calculator">
+                <span>Root Calculator</span>
+            </button>
+            <button class="calc-button" id="vel-btn">
+                <img src="image/Div image8.png" alt="Velocity Converter">
+                <span>Velocity Calculator</span>
+            </button>
+            <button class="calc-button" id="len-btn">
+                <img src="image/Div image9.png" alt="Length Converter">
+                <span>Length Converter</span>
+            </button>
+            <button class="calc-button" id="vol-btn">
+                <img src="image/Div image10.png" alt="Volume Calculator">
+                <span>Volume Calculator</span>
+            </button>
+            <button class="calc-button" id="area-btn">
+                <img src="image/Div image11.png" alt="Area Calculator">
+                <span>Area Calculator</span>
+            </button>
+            <button class="calc-button" id="force-btn">
+                <img src="image/Div image12.png" alt="Force Calculator">
+                <span>Force Calculator</span>
+            </button>
         </div>
+        <br><br><br><br><br>
 
-    </div>
 
-    <br><br>
-
-    <div class="info-box">
-        <h3>Do You Know?</h3>
-        <p>Pythagoras may have discovered irrational numbers, which are extraordinarily important in mathematics. He also studied astronomy, though he believed (like most at his time) that the Earth was at the center of the universe.</p>
-    </div>
-    
-
-    <script src="index.js"></script>
+    <script src="coolcal.js"></script>
 
 </body>
 </html>

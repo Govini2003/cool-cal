@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 document.getElementById('pythagoras-btn').addEventListener('click', function() {
-    window.location.href = 'index.html';
+    window.location.href = 'pythagoras.html';
 });
 
 document.getElementById('bmi-btn').addEventListener('click', function() {
