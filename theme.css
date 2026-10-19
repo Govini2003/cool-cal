@@ -141,6 +141,9 @@ p {
 p b, p strong { font-weight: 500; }
 .info-box p strong { color: var(--text); font-weight: 700; }
 
+.info-box a { color: var(--accent-2); text-decoration: none; }
+.info-box a:hover { text-decoration: underline; }
+
 img { border-radius: 14px; }
 
 .image-container, .image-container img {
